@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Page 1</title>
+</head>
+<body>
+<h2>Page 1: Enter Name</h2>
+<form th:action="@{/page2}" method="post">
+    First Name: <input type="text" name="firstName"><br><br>
+    Last Name: <input type="text" name="lastName"><br><br>
+    <button type="submit">Next</button>
+</form>
+</body>
+</html>
